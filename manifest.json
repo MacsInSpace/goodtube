@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Good Tube Ad Block",
+  "version": "1.0",
+  "description": "Removes YouTube's adblock popups and interruptions",
+  
+  "content_scripts": [
+    {
+      "matches": [
+        "*://youtube.com/*",
+        "*://www.youtube.com/*"
+      ],
+      "js": ["goodtube.user.js"],
+      "run_at": "document_end"
+    }
+  ],
+  
+  "host_permissions": [
+    "*://youtube.com/*",
+    "*://www.youtube.com/*",
+    "*://m.youtube.com/*",
+    "*://*youtube*",
+    "*://www.youtube.com/*"
+  ]
+}
