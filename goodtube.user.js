@@ -15,7 +15,7 @@
 // ==/UserScript==
 
 // This now automatically loads the latest version. This means that you will never need to update manually again :)
-// To view the full source code go here: https://github.com/goodtube4u/goodtube/blob/main/goodtube.js
+// To view the full source code go here: https://github.com/MacsInSpace/goodtube/raw/refs/heads/main/goodtube.user.js
 
 (function () {
 	'use strict';
