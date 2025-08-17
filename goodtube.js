@@ -1004,7 +1004,7 @@
 		}
 
 		// Usage stats
-		goodTube_stats_user();
+		// goodTube_stats_user();
 
 		// Keyboard shortcuts
 		goodTube_shortcuts_init();
@@ -1179,7 +1179,7 @@
 				goodTube_player_load();
 
 				// Usage stats
-				goodTube_stats_video();
+				// goodTube_stats_video();
 			}
 			// Otherwise if we're not viewing a video
 			else {
