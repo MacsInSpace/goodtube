@@ -1013,12 +1013,12 @@
 		window.addEventListener('message', goodTube_receiveMessage);
 
 		// Init the menu
-		document.addEventListener('DOMContentLoaded', goodTube_menu);
+		// document.addEventListener('DOMContentLoaded', goodTube_menu);
 
 		// Also check if the DOM is already loaded, as if it is, the above event listener will not trigger
-		if (document.readyState === 'interactive' || document.readyState === 'complete') {
-			goodTube_menu();
-		}
+		// if (document.readyState === 'interactive' || document.readyState === 'complete') {
+		//	goodTube_menu();
+		//}
 	}
 
 	// Listen for messages from the iframe
