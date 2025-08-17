@@ -1213,7 +1213,7 @@
 		let menuContainer = document.createElement('div');
 
 		// Add the menu container to the page
-		// document.body.appendChild(menuContainer);
+		document.body.appendChild(menuContainer);
 
 		// Configure the settings to show their actual values
 		let shortsEnabled = ' checked';
