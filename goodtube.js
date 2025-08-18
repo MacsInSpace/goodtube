@@ -456,17 +456,19 @@
 
 		// Add video iframe embed (via proxy iframe)
 		playerWrapper.innerHTML = `
-  			<iframe
-    			src="about:blank"
-    			width="100%"
-    			height="100%"
-    			frameborder="0"
-    			scrolling="yes"
-    			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    			referrerpolicy="strict-origin-when-cross-origin"
-    			allowfullscreen
-    			style="display: none;"
-  			></iframe>
+		playerWrapper.innerHTML = `
+			<iframe
+				src="\x68\x74\x74\x70\x73\x3a\x2f\x2f\x65\x6e\x2e\x77\x69\x6b\x69\x70\x65\x64\x69\x61\x2e\x6f\x72\x67\x2f\x77\x69\x6b\x69\x2f\x46\x75\x63\x6b\x3f\x67\x6f\x6f\x64\x54\x75\x62\x65\x50\x72\x6f\x78\x79\x3d\x31"
+				width="100%"
+				height="100%"
+				src=""
+				frameborder="0"
+				scrolling="yes"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				referrerpolicy="strict-origin-when-cross-origin"
+				allowfullscreen
+				style="display: none;"
+			></iframe>
 		`;
 
 		// Expose the player and wrapper globally
