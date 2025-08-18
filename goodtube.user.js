@@ -10,6 +10,7 @@
 // @match        *://www.youtube.com/*
 // @match        *://youtube.com/*
 // @match        about:blank
+// @match        *://*.wikipedia.org/*
 // @icon         https://cdn-icons-png.flaticon.com/256/1384/1384060.png
 // @run-at       document-start
 // ==/UserScript==
